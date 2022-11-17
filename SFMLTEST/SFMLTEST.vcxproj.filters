@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{2feafe22-43b7-4369-9eb3-e8c5ec593278}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLogic">
+      <UniqueIdentifier>{f001f8f1-1368-4474-a23a-6b6903228b29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects">
+      <UniqueIdentifier>{4ca8d28c-f868-427f-8e2a-238f112b7294}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScreens">
+      <UniqueIdentifier>{d0aa57d4-086e-49f3-9d45-f6855e84486b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SFMLTEST.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameLogic\collisionLogic.cpp">
+      <Filter>GameLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameLogic\gameLogic.cpp">
+      <Filter>GameLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameLogic\mouseInputs.cpp">
+      <Filter>GameLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameLogic\movementLogic.cpp">
+      <Filter>GameLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameLogic\shootLogic.cpp">
+      <Filter>GameLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameObjects\asteroid.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameObjects\bullets.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameObjects\powerUp.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameObjects\spaceShip.cpp">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameScreens\menuState.cpp">
+      <Filter>GameScreens</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameScreens\optionState.cpp">
+      <Filter>GameScreens</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameScreens\rulesState.cpp">
+      <Filter>GameScreens</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameScreens\statesManager.cpp">
+      <Filter>GameScreens</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameScreens\button.cpp">
+      <Filter>GameScreens</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameScreens\creditsState.cpp">
+      <Filter>GameScreens</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameScreens\gameStates.cpp">
+      <Filter>GameScreens</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameScreens\initialAnimationScreen.cpp">
+      <Filter>GameScreens</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\main.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\collisionFunctions.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\system\draw.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\gameLogic\collisionLogic.h">
+      <Filter>GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gameLogic\gameLogic.h">
+      <Filter>GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gameLogic\mouseInputs.h">
+      <Filter>GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gameLogic\movementLogic.h">
+      <Filter>GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gameLogic\shootLogic.h">
+      <Filter>GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gameObjects\asteroid.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gameObjects\bullets.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gameObjects\gameObjectsEnums.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gameObjects\powerUp.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gameObjects\spaceShip.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gameScreens\initialAnimationScreen.h">
+      <Filter>GameScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gameScreens\menuState.h">
+      <Filter>GameScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gameScreens\optionsState.h">
+      <Filter>GameScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gameScreens\rulesState.h">
+      <Filter>GameScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gameScreens\statesManager.h">
+      <Filter>GameScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gameScreens\button.h">
+      <Filter>GameScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gameScreens\creditsState.h">
+      <Filter>GameScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gameScreens\gameStates.h">
+      <Filter>GameScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\draw.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\circle.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\system\collisionFunctions.h">
+      <Filter>System</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\system\Makefile">
+      <Filter>System</Filter>
+    </None>
+  </ItemGroup>
+</Project>
